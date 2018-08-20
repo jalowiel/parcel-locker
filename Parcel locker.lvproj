@@ -14,9 +14,17 @@
 		<Item Name="ConsumerCtl.ctl" Type="VI" URL="../controls/ConsumerCtl.ctl"/>
 		<Item Name="DisplayCmd.ctl" Type="VI" URL="../controls/DisplayCmd.ctl"/>
 		<Item Name="DisplayCtl.ctl" Type="VI" URL="../controls/DisplayCtl.ctl"/>
+		<Item Name="elapsed_time.vi" Type="VI" URL="../subVI&apos;s/elapsed_time.vi"/>
+		<Item Name="ElapsedTimeCmd.ctl" Type="VI" URL="../controls/ElapsedTimeCmd.ctl"/>
+		<Item Name="EnableDisableCmd.ctl" Type="VI" URL="../controls/EnableDisableCmd.ctl"/>
 		<Item Name="front_panel.vi" Type="VI" URL="../subVI&apos;s/front_panel.vi"/>
+		<Item Name="Left Menu.ctl" Type="VI" URL="../controls/Left Menu.ctl"/>
+		<Item Name="Menu.ctl" Type="VI" URL="../controls/Menu.ctl"/>
 		<Item Name="messages.vi" Type="VI" URL="../subVI&apos;s/messages.vi"/>
+		<Item Name="Right Menu.ctl" Type="VI" URL="../controls/Right Menu.ctl"/>
+		<Item Name="update_menus.vi" Type="VI" URL="../subVI&apos;s/update_menus.vi"/>
 		<Item Name="update_message.vi" Type="VI" URL="../subVI&apos;s/update_message.vi"/>
+		<Item Name="UpdateMenuCmd.ctl" Type="VI" URL="../controls/UpdateMenuCmd.ctl"/>
 		<Item Name="UpdateMessageCmd.ctl" Type="VI" URL="../controls/UpdateMessageCmd.ctl"/>
 		<Item Name="UpdateMessageCtl.ctl" Type="VI" URL="../controls/UpdateMessageCtl.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
