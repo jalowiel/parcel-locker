@@ -1,7 +1,6 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="17008000">
+<Project Type="Project" LVVersion="11008008">
 	<Item Name="My Computer" Type="My Computer">
-		<Property Name="NI.SortType" Type="Int">2</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.tcp.enabled" Type="Bool">false</Property>
@@ -11,31 +10,13 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="AccountCmd.ctl" Type="VI" URL="../controls/AccountCmd.ctl"/>
-		<Item Name="accounts_file_access.vi" Type="VI" URL="../subVI&apos;s/accounts_file_access.vi"/>
-		<Item Name="Buttonsmenu.ctl" Type="VI" URL="../controls/Buttonsmenu.ctl"/>
-		<Item Name="ConsumerCmd.ctl" Type="VI" URL="../controls/ConsumerCmd.ctl"/>
-		<Item Name="ConsumerCtl.ctl" Type="VI" URL="../controls/ConsumerCtl.ctl"/>
-		<Item Name="DisplayCmd.ctl" Type="VI" URL="../controls/DisplayCmd.ctl"/>
-		<Item Name="DisplayCtl.ctl" Type="VI" URL="../controls/DisplayCtl.ctl"/>
-		<Item Name="elapsed_time.vi" Type="VI" URL="../subVI&apos;s/elapsed_time.vi"/>
-		<Item Name="ElapsedTimeCmd.ctl" Type="VI" URL="../controls/ElapsedTimeCmd.ctl"/>
-		<Item Name="EnableDisableCmd.ctl" Type="VI" URL="../controls/EnableDisableCmd.ctl"/>
-		<Item Name="ExitApp.vi" Type="VI" URL="../subVI&apos;s/ExitApp.vi"/>
-		<Item Name="front_panel.vi" Type="VI" URL="../subVI&apos;s/front_panel.vi"/>
-		<Item Name="InitializeDisplay.vi" Type="VI" URL="../subVI&apos;s/InitializeDisplay.vi"/>
-		<Item Name="menu_item.vi" Type="VI" URL="../subVI&apos;s/menu_item.vi"/>
-		<Item Name="Menucontrols.ctl" Type="VI" URL="../controls/Menucontrols.ctl"/>
-		<Item Name="MenuDisplay.ctl" Type="VI" URL="../controls/MenuDisplay.ctl"/>
-		<Item Name="messages.vi" Type="VI" URL="../subVI&apos;s/messages.vi"/>
-		<Item Name="start_operation.vi" Type="VI" URL="../subVI&apos;s/start_operation.vi"/>
-		<Item Name="update_menus.vi" Type="VI" URL="../subVI&apos;s/update_menus.vi"/>
-		<Item Name="update_message.vi" Type="VI" URL="../subVI&apos;s/update_message.vi"/>
-		<Item Name="UpdateMenuCmd.ctl" Type="VI" URL="../controls/UpdateMenuCmd.ctl"/>
-		<Item Name="UpdateMessageCmd.ctl" Type="VI" URL="../controls/UpdateMessageCmd.ctl"/>
-		<Item Name="UpdateMessageCtl.ctl" Type="VI" URL="../controls/UpdateMessageCtl.ctl"/>
-		<Item Name="user_input.vi" Type="VI" URL="../subVI&apos;s/user_input.vi"/>
-		<Item Name="UserInputStateCmd.ctl" Type="VI" URL="../controls/UserInputStateCmd.ctl"/>
+		<Item Name="Controls" Type="Folder" URL="../Controls">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
+		<Item Name="SubVIs" Type="Folder" URL="../SubVIs">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
+		<Item Name="ATM Simulator.vi" Type="VI" URL="../ATM Simulator.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
@@ -55,7 +36,7 @@
 				<Item Name="Find First Error.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Find First Error.vi"/>
 				<Item Name="Find Tag.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Find Tag.vi"/>
 				<Item Name="Format Message String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Format Message String.vi"/>
-				<Item Name="General Error Handler Core CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler Core CORE.vi"/>
+				<Item Name="General Error Handler CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler CORE.vi"/>
 				<Item Name="General Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler.vi"/>
 				<Item Name="Get String Text Bounds.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Get String Text Bounds.vi"/>
 				<Item Name="Get Text Rect.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Get Text Rect.vi"/>
@@ -63,7 +44,6 @@
 				<Item Name="GetRTHostConnectedProp.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetRTHostConnectedProp.vi"/>
 				<Item Name="Longest Line Length in Pixels.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Longest Line Length in Pixels.vi"/>
 				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
-				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
 				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
 				<Item Name="Open File+.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Open File+.vi"/>
@@ -88,17 +68,6 @@
 				<Item Name="Write To Spreadsheet File (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write To Spreadsheet File (string).vi"/>
 				<Item Name="Write To Spreadsheet File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write To Spreadsheet File.vi"/>
 			</Item>
-			<Item Name="DisplayCommand.ctl" Type="VI" URL="../../../../Downloads/ATM Simulator/Controls/DisplayCommand.ctl"/>
-			<Item Name="DisplayCommanda.ctl" Type="VI" URL="../controls/DisplayCommanda.ctl"/>
-			<Item Name="DisplayControl-czyjes.ctl" Type="VI" URL="../DisplayControl-czyjes.ctl"/>
-			<Item Name="DisplayControl.ctl" Type="VI" URL="../../../../Downloads/ATM Simulator/Controls/DisplayControl.ctl"/>
-			<Item Name="EnableDisableCommand.ctl" Type="VI" URL="../../../../Downloads/ATM Simulator/Controls/EnableDisableCommand.ctl"/>
-			<Item Name="komunikaty_przy_przyciskach.ctl" Type="VI" URL="../../../../../LukashPC/Desktop/projekt_paczkomat/projekt_paczkomat/komunikaty_przy_przyciskach.ctl"/>
-			<Item Name="MenuItemCtl.ctl" Type="VI" URL="../controls/MenuItemCtl.ctl"/>
-			<Item Name="UpdateMenuCommand.ctl" Type="VI" URL="../../../../Downloads/ATM Simulator/Controls/UpdateMenuCommand.ctl"/>
-			<Item Name="UpdateMessageCommand.ctl" Type="VI" URL="../../../../Downloads/ATM Simulator/Controls/UpdateMessageCommand.ctl"/>
-			<Item Name="UpdateMessageControl.ctl" Type="VI" URL="../../../../Downloads/ATM Simulator/Controls/UpdateMessageControl.ctl"/>
-			<Item Name="wiadomosci.ctl" Type="VI" URL="../../../../../LukashPC/Desktop/projekt_paczkomat/projekt_paczkomat/wiadomosci.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
